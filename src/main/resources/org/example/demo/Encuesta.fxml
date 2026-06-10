@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="263.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.EncuestaController">
+   <children>
+      <Label alignment="CENTER" layoutX="84.0" layoutY="14.0" prefHeight="29.0" prefWidth="82.0" style="-fx-background-color: #ddc8c8;" text="ENCUESTA" />
+      <Label layoutX="39.0" layoutY="53.0" text="1. ¿Capital de Ecuador?" />
+      <ComboBox fx:id="cmb1" layoutX="39.0" layoutY="77.0" prefHeight="25.0" prefWidth="172.0" promptText="Seleccione" />
+      <Label layoutX="39.0" layoutY="113.0" text="2. ¿Cuánto es 5 x 4?" />
+      <Label layoutX="39.0" layoutY="176.0" text="3. ¿Lenguaje usado en JavaFX?" />
+      <Label layoutX="39.0" layoutY="240.0" text="4. ¿Cuántos continentes existen?" />
+      <ComboBox fx:id="cmb2" layoutX="39.0" layoutY="142.0" prefHeight="25.0" prefWidth="172.0" promptText="Seleccione" />
+      <ComboBox fx:id="cmb3" layoutX="39.0" layoutY="207.0" prefHeight="25.0" prefWidth="172.0" promptText="Seleccione" />
+      <ComboBox fx:id="cmb4" layoutX="39.0" layoutY="268.0" prefHeight="25.0" prefWidth="172.0" promptText="Seleccione" />
+      <Label fx:id="lblCorrectas" layoutX="39.0" layoutY="336.0" prefHeight="25.0" prefWidth="172.0" />
+      <Label fx:id="lblIncorrectas" layoutX="39.0" layoutY="364.0" prefHeight="25.0" prefWidth="172.0" />
+      <Label fx:id="lblPuntaje" layoutX="39.0" layoutY="393.0" prefHeight="25.0" prefWidth="172.0" />
+      <Button layoutX="68.0" layoutY="302.0" mnemonicParsing="false" onAction="#calcular" text="Calcular Resultado" />
+   </children>
+</AnchorPane>
