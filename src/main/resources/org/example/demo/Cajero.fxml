@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="234.0" prefWidth="213.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.CajeroController">
+    <children>
+        <Label alignment="CENTER" layoutX="36.0" layoutY="26.0" prefHeight="52.0" prefWidth="140.0" style="-fx-background-color: #68b974; -fx-border-color: #000000; -fx-border-radius: 4px;" text="Panel Cajero" />
+        <Label alignment="CENTER" layoutX="15.0" layoutY="93.0" prefHeight="80.0" prefWidth="183.0" style="-fx-background-color: #aba977; -fx-border-color: #655a23; -fx-border-radius: 4px;" text="¡Bienvenido cajero!" />
+        <Button fx:id="btnCerrar" layoutX="80.0" layoutY="188.0" mnemonicParsing="false" onAction="#cerrar" text="Cerrar" />
+    </children>
+</AnchorPane>
